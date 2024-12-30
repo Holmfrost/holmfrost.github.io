@@ -1,6 +1,6 @@
-var hwcCanvas = document.getElementById("hwcCanvas");
-var hwcCanvasContext = hwcCanvas.getContext("2d");
+var c = document.getElementById("hwcCanvas");
+var ctx = c.getContext("2d");
 
-hwcCanvasContext.moveTo(0, 0);
-hwcCanvasContext.lineTo(200, 100);
-hwcCanvasContext.stroke();
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
